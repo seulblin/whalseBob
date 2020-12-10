@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" >
+  <title>고래밥 친구들과 대화하자!</title>
+  <link rel="stylesheet" href="talk.css">
+</head>
+<body id="body">
+
+  <div class="container">
+    <div class="header">
+      <button class="back-btn">
+        <img src="img/mobile-back.png" width="30" height="30">
+      </button>
+      <img class="profile-pic" src="img/mobile-profile.png" width="40" height="40">
+      <div class="info-block">
+        <p class="username">라두</p>
+        <p class="status">활동중</p>
+      </div>
+    </div>
+
+    <div id="chat-box">
+      <div id="chat-box_cont">
+        <div class="bubble friend-bubble">
+        반가워~♥
+        </div>
+        <div class="bubble friend-bubble">
+        나는 라두야!
+        </div>
+        <div class="bubble friend-bubble">
+        환영해~!!
+        </div>
+      </div>
+      <div class="bubble friend-bubble" id="laterMessage">
+      오늘은 톡하기 어려워<br>
+      친구들이 위험해 쳐해 있대<br>
+      자세한 상황은<br>
+      www.sea 여기를 확인해줘!
+      </div>
+    </div>
+
+    <div class="footer">
+      <textarea id="input" placeholder="메시지를 입력하세요" autofocus="true"></textarea>
+      <button id="send">
+        <img src="img/mobile-send.jpg" width="60" height="60">
+      </button>
+    </div>
+  </div>
+  <script src="talk.js"></script>
+</body>
+</html>

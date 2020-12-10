@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1100, user-scalable=no">
+<title>고래밥</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="swiper/swiper.min.css">
+</head>
+<body>
+<div id="popupWrap">
+ <ul id="detailBox">
+   <li id="detailOne"><img src="img/detail2.jpg"></li>
+   <li id="detailTwo"><img src="img/detail.jpg"></li>
+ </ul>
+</div><!-- popupWrap -->
+
+<div id="wrap">
+<div id="header">
+ <div id="header-in">
+  <h1 class="logo"><a href="index.html" id="logoMainz"><span class="logo-in">죠스떡볶이</span></a></h1>
+  <nav id="header-nav">
+   <ul>
+   	<li><a href="index2.html" class="mainMenus">BRAND</a>
+     <ul class="submenu">
+     	<li><a href="#">대표인사말</a></li>
+     	<li><a href="#">고래밥</a></li>
+     	<li><a href="#">채용정보</a></li>
+     </ul>
+    </li>
+   	<li><a href="#" class="mainMenus">MENU</a>
+      <ul class="submenu">
+      	<li><a href="#">고래밥</a></li>
+      	<li><a href="#">상어밥</a></li>
+      	<li><a href="#">새우밥</a></li>
+      </ul>
+    </li>
+   	<li><a href="#" class="mainMenus">STORE</a>
+     <ul class="submenu">
+     	<li><a href="#">매장찾기</a></li>
+     	<li><a href="#">매장안내</a></li>
+     </ul>
+    </li>
+   	<li><a href="#" class="mainMenus">COMMUNITY</a>
+     <ul class="submenu">
+     	<li><a href="#">커뮤니티</a></li>
+     	<li><a href="#">고객의 소리</a></li>
+     </ul>
+    </li>
+   </ul>
+  </nav>
+  <ul class="pranch">
+   <li class="pranchIcon"><a href="#" class="pranchImage" title="고래밥 담으러!"></a></li>
+   <li class="pranchIcon"><a href="#" class="pranchImageTwo" title="로그인은 아직.."></a></li>
+   <li class="pranchIcon"><a href="#" class="pranchImageThr" title="subinge94@kakao.com"></a></li>
+  </ul>
+ </div>
+</div>
+
+
+
+<!--<div id="quickside">
+ <a href="#"><img src="img/fixMenu.png" title="라두이야기"></a>
+ <a href="#"><img src="img/fixMenu2.png" alt="버블슈터게임"></a>
+</div>-->
+
+
+
+<div id="containers">
+ <div id="con-in">
+  <div id="slider">
+   <div class="swiper-container swiper1 slide-wrap">
+    <div class="swiper-wrapper slider-track">
+     <div class="swiper-slide slider-t-in">
+      <a href="#"><img src="img/slide1.jpg" style="width:100%; height:841px;"></a>
+     </div>
+     <div class="swiper-slide slider-t-in">
+      <a href="#"><img src="img/slide2.jpg" style="width:100%; height:841px;"></a>
+     </div>
+     <div class="swiper-slide slider-t-in">
+      <a href="#"><img src="img/slide3.jpg" style="width:100%; height:841px;"></a>
+     </div>
+     <div class="swiper-slide slider-t-in">
+      <a href="#"><img src="img/slide4.jpg" style="width:100%; height:841px;"></a>
+     </div>
+    </div>
+   </div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next mainNext"></div>
+  <div class="swiper-button-prev mainPrev"></div>
+  </div>
+  <script src="swiper/swiper.min.js"></script>
+
+   <script type="text/javascript">
+     var swiper = new Swiper('.swiper1', {
+        slidesPerView: 'auto',
+        autoplay: {
+        delay: 10000,
+        disableOnInteraction: false,
+      },
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      });
+   </script>
+      <div id="article1">
+      <div class="store-left">
+       <h1>NEW STORE</h1>
+       <p>항상 즐겁다!<br><strong>맛으로<br>재미로!</strong></p>
+       <div class="s-meet"><a href="#">오리온 고래밥 구매하기</a></div>
+      </div>
+      <div class="store-right">
+       <form>
+       <h1>STORE SEARCH</h1>
+       <p><span>오리온<br><strong>고래밥<br>다음 맛은!?</strong></span></p>
+       <div class="s-meet">
+        <input type="hidden" id="md" name="md" value="search">
+        <input type="hidden" id="sf" name="sf" name="all">
+        <input type="text" id="ss" name="ss" class="search" placeholder="고래밥 시리즈를 검색하세요" maxlength="20">
+        <button type="submit" class="btn_search"><img src="img/search.png" alt="검색">
+        </button>
+       </div>
+       </form>
+      </div>
+      </div>
+
+     <div id="article2">
+      <h2 class="subtit">JAWS MENU</h2>
+      <p>상어밥의 등장!<br> <strong>어떤 맛일까?</strong></p>
+      <div class="menu-wrap">
+       <a href="#" style="width:410px;">오리온 전체메뉴 보기</a>
+      </div>
+     </div>
+
+     <div id="article3">
+      <div class="num-menu">
+       <a id="detailOpenone">
+        <div class="num">01</div>
+        <img src="img/snack1.png" alt="상어밥" class="snackRotate">
+       </a>
+      </div>
+      <div class="num-menu">
+       <a id="detailOpentwo">
+        <div class="num">02</div>
+        <img src="img/snack2.png" alt="고래밥" class="snackRotate">
+       </a>
+      </div>
+      <div class="num-menu">
+       <a id="detailOpenthr">
+        <div class="num">03</div>
+        <img src="img/snack3.png" alt="젤리밥" class="snackRotate">
+       </a>
+      </div>
+     </div>
+     <div id="article4">
+      <a href="talk.html" target="_blank">
+       <div id="talkPhone" class="phone"><img src="img/phone.png" alt=""></div>
+       <div class="app">
+        <h2>ORION MOBILE</h2>
+        <p>고래밥친구들과<br><span>대화하자!</span><br><strong>항상 오픈</strong></p>
+       </div>
+      </a>
+     </div>
+
+
+
+     <div id="article5">
+      <h2 class="subtit">ORION COMMUNITY</h2>
+      <p>맛으로 먹고<strong> 재미로 먹는다!</strong></p>
+      <div class="snswrap">
+       <div class="snswrap-in">
+        <button type="button" data-role="none" class="btnPosition btnPrev swiper-button-prev"></button>
+        <div class="sns-list swiper-container swiper2">
+         <div id="bannerBox" class="sns-list-in swiper-wrapper">
+          <div class="sns-item swiper-slide">
+               <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">마이리틀텔레비전 #종이접이클래스</div>
+               <img src="img/event.jpg">
+               </a>
+          </div>
+          <div class="sns-item swiper-slide">
+               <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">고래밥 하고 고래밥 받자!  #구글추천게임선정</div>
+               <img src="img/event2.jpg">
+               </a>
+          </div>
+
+          <div class="sns-item swiper-slide">
+                <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">100일간의 보물찾기 대작전! #라두와친구들 #STAMP</div>
+               <img src="img/event3.jpg">
+               </a>
+          </div>
+
+          <div class="sns-item swiper-slide">
+               <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">고래밥 교실 #틀린그림찾기놀이</div>
+               <img src="img/event4.jpg">
+               </a>
+          </div>
+
+          <div class="sns-item swiper-slide">
+               <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">고래밥 창의력 놀이 #고래밥인증샷</div>
+               <img src="img/event5.jpg">
+               </a>
+           </div>
+
+           <div class="sns-item swiper-slide">
+               <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">고래밥 먹고 닌텐도 Wii 받자~ #고래밥칠리새우맛</div>
+               <img src="img/event6.jpg">
+               </a>
+           </div>
+
+          <div class="sns-item swiper-slide">
+               <a href="#">
+               <p class="cont">INSTAGRAM</p>
+               <div class="cont">고래밥 먹고 코인받자!! #고래밥코인</div>
+               <img src="img/event7.jpg">
+               </a>
+           </div>
+         </div>
+        </div>
+        <button type="button" data-role="none" class="btnPosition btnNext swiper-button-next"></button>
+       </div>
+      </div>
+     </div>
+     <script>
+      var swiper = new Swiper('.swiper2', {
+        slidesPerView: 7,
+        autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+        loop: true,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      });
+    </script>
+     <div id="article6">
+      <div class="bt-l">
+       <div class="video">
+        <a href="#"><img src="img/cafe.jpg"></a>
+       </div>
+       <dl>
+        <dt>고래밥 카페</dt>
+        <dd>꿈을 향해 항해하시는 모든 분들을 응원합니다^^</dd>
+       </dl>
+      </div>
+      <div class="bt-r">
+       <h2 class="subtit">GORAEBAB CAFE</h2>
+       <p>고래밥<br><strong>카페 점장님<br>모십니다.</strong></p>
+      </div>
+     </div>
+    </div>
+    </div>
+ </div>
+</div>
+
+    <div id="simple">
+    <form>
+    <input type="hidden" id="conform">
+    <div class="simple-in">
+      <div class="chang">함께하는 항해</div>
+      <div class="chang-in">
+          <input type="text" id="chang-name" name="chang-name" maxlength="10" placeholder="이름" style="width:140px;">
+          <input type="text" id="chang-num" class="number" name="chang-num" placeholder="연락처" maxlength="3" style="width:80px; margin:0 0 0 30px;">
+          <span class="dash">-</span>
+          <input type="text" id="chang-num2" class="number" name="chang-num2" maxlength="4" style="width:80px; ">
+          <span class="dash">-</span>
+          <input type="text" id="chang-num3" class="number" name="chang-num3" maxlength="4" style="width:80px;">
+      </div>
+      <div class="button-wrap"><input type="button" value="신청하기" style="width:145px;"></div>
+    </div>
+    </form>
+    </div>
+
+
+<div id="footer">
+ <div class="footer-in">
+  <div class="fl">
+   <img src="img/logoWhite.png" alt="고래밥 로고">
+   <p>대표이사 이슬빈 / 대한민국 경기도<br>
+   Copyright (C) 이슬빈, 고래밥</p>
+  </div>
+
+
+
+  <div class="fr">
+   <ul>
+   	<li><a href="#">채용안내</a></li>
+   	<li><a href="#">개인정보처리방침</a></li>
+   	<li><a href="#">이용약관</a></li>
+   	<li><a href="#">사이트맵</a></li>
+   </ul>
+
+   <div class="center">
+    <p>010-9213-4815</p>
+    <p>오전 9시 ~ 오후 6시 / 주말 및 공휴일 휴무</p>
+   </div>
+  </div>
+ </div>
+</div>
+</div><!-- wrap end -->
+<script src="index.js"></script>
+</body>
+</html>
